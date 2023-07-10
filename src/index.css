@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serifs;
+  text-transform: capitalize;
+}
+
+.header {
+  background: rgb(177, 248, 248);
+  height: 20vh;
+  text-align: center;
+  padding: 1.5rem 0;
+  letter-spacing: 3px;
+  color: darkcyan;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.header span {
+  font-size: 3rem;
+  margin: 0rem 1.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+  background: rgb(49, 175, 49);
+  height: 10vh;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+input {
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 100px;
+  border: none;
+  background: rgb(184, 240, 184);
+  font-size: 1.2rem;
+}
+
+select {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background: rgb(184, 240, 184);
+}
+
+.btn {
+  padding: 0.5rem;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  font-family: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  letter-spacing: 3px;
+}
+
+.packingList {
+  background: lightpink;
+  height: 55vh;
+}
+.items {
+  display: grid;
+  gap: 2rem 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.options {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+}
+
+.clear-btn {
+  margin-right: 1rem;
+}
+
+.singleItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+.description {
+  margin: 0 1rem;
+}
+
+.remove {
+  color: red;
+  cursor: pointer;
+}
+
+.footer {
+  background: lightslategray;
+  height: 15vh;
+}
+
+.info {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.info-item {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
